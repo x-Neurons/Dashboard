@@ -10,14 +10,7 @@ const Navbar = ({ toggleDrawer }) => {
     const isProductsPage = location.pathname === '/';
     const isLoginPage = location.pathname === '/login';
     const isDashboardPage = location.pathname === '/dashboard';
-    // const inputRef = useRef()
-    // const handleSubmit = (e) => {
-    // const searchQuery = inputRef.current.value
-    // e.preventDefault()
-    // console.log("Searched=>", searchQuery);
-    // searchQuery = ''
-    // navigate(`/products?search=${searchQuery}`)
-    // }
+    
     return (
         <div className='dark mt-20 bg-blue-300'>
 
