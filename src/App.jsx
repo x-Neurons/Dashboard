@@ -6,14 +6,12 @@ import Login from './component/Login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from './component/Dashboard';
 import Products from './component/Products';
-import TestNav from './component/testNav';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        {/* <TestNav/> */}
         <Drawer />
         <Routes>
           <Route path="/" element={<Products />} />
